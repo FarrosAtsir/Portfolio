@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Farros Atsir | Portfolio Web</title>
 </head>
@@ -18,13 +19,15 @@
             <div class='bx bx-x tgl' id="times"></div>
             <div class='bx bx-menu tgl' id="bars"></div>
         </label>
-        <div class="head">Portfolio</div>
+        <div class="head">
+            <img src="img/logo sidebar.png" alt="Logo">
+        </div>
         <ol>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
         </ol>
     </div>
 
@@ -49,10 +52,9 @@
             <p class="intro">
                 Hello Everyone!! My name is Farros Atsir Nawaf, usually called Farros. 
                 I was born in the city of Cirebon on Saturday, 12 January 2008. 
-                My hobbies are coding, badminton, reading ovels and manga, watching anime,
-                and playing game, more specifically Genshin Impact.
+                My hobbies are coding, badminton, reading novels and comics.
             </p>
-            <a href="https://resume.io/r/kSKU9ZuEX" class="btn">My Cv</a>
+            <a href="cv.pdf" download="cv" class="btn">Download CV</a>
         </div>
     </section>
 
@@ -88,6 +90,10 @@
             <div class="container" data-aos="fade-up" data-aos-duration="500">
                 <div class="laravel skillset">40%</div>
             </div>
+            <p class="nama-skill-tujuh" data-aos="fade-up" data-aos-duration="500">Flutter</p>
+            <div class="container" data-aos="fade-up" data-aos-duration="500">
+                <div class="flutter skillset">50%</div>
+            </div>
             <p class="nama-skill-tujuh" data-aos="fade-up" data-aos-duration="500">Design</p>
             <div class="container" data-aos="fade-up" data-aos-duration="500">
                 <div class="design skillset">70%</div>
@@ -99,41 +105,6 @@
     <section class="portfolio" id="portfolio">
         <h1 class="heading" data-aos="fade-down" data-aos-duration="500">My Projects</h1>
         <div class="portfolio-container">
-            <div class="portfolio-box">
-                <img src="img/CompanyProfile.png" alt="" data-aos="fade-down-right" data-aos-duration="500">
-                <div class="text">
-                    <div class="card" data-aos="fade-up-left" data-aos-duration="500">
-                        <div class="card-details">
-                            <p class="text-title">Company Profile</p>
-                            <p class="text-body">
-                                This website explains about cellphone shops that sell various 
-                                types of cellphones ranging from typing cellphones to Android 
-                                cellphones or touch cellphones that we often use in everyday life.
-                                I created this website with HTML and CSS.
-                            </p>
-                        </div>
-                        <a href="https://farrosatsir.github.io/FarrosCompanyProfile/" class="card-button">See More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-box-dua">
-                <img src="img/HoyoWeb.png" alt=""  data-aos="fade-down-left" data-aos-duration="500">
-                <div class="text">
-                    <div class="card"  data-aos="fade-up-right" data-aos-duration="500">
-                        <div class="card-details">
-                            <p class="text-title">HoYoverse Web</p>
-                            <p class="text-body">
-                                This website is a clone of the official Hoyoverse website 
-                                that I created when taking the IT practice exam in the middle 
-                                of the semester. On this website there are products produced by 
-                                the Hoyoverse company such as games, communities, and others.
-                                I created this website with HTML and CSS.
-                            </p>
-                        </div>
-                        <a href="https://farrosatsir.github.io/FarrosHoyoWeb" class="card-button">See More</a>
-                    </div>
-                </div>
-            </div>
             <div class="portfolio-box">
                 <img src="img/QuranWeb.png" alt="" data-aos="fade-down-right" data-aos-duration="500">
                 <div class="text">
@@ -154,23 +125,6 @@
                 </div>
             </div>
             <div class="portfolio-box-dua">
-                <img src="img/TravelerWeb.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
-                <div class="text">
-                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
-                        <div class="card-details">
-                            <p class="text-title">Traveler Web</p>
-                            <p class="text-body">
-                                This website explains about Japan as a destination country, 
-                                it will display tourist locations for tourists visiting Japan, 
-                                there is also information or stories about Japan.
-                                I created this website with HTML and Bootstrap.
-                            </p>
-                        </div>
-                        <a href="https://farrosatsir.github.io/TravelerWeb" class="card-button">See More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-box">
                 <img src="img/NoteWeb.png" alt="" data-aos="fade-down-right" data-aos-duration="500">
                 <div class="text">
                     <div class="card" data-aos="fade-up-left" data-aos-duration="500">
@@ -185,24 +139,6 @@
                             </p>
                         </div>
                         <a href="https://farrosatsir.github.io/NoteWeb" class="card-button">See More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-box-dua">
-                <img src="img/IDNWeb.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
-                <div class="text">
-                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
-                        <div class="card-details">
-                            <p class="text-title">IDN Web</p>
-                            <p class="text-body">
-                                This website explains a little about my school IDN Boarding 
-                                School Pamijahan Bogor. On this website there will be profiles 
-                                about IDN Boarding School, majors at IDN, activities that are 
-                                usually carried out at IDN, and contacts to find out about IDN 
-                                from social media. I created this website with HTML and CSS.
-                            </p>
-                        </div>
-                        <a href="https://farrosatsir.github.io/IDNWeb/" class="card-button">See More</a>
                     </div>
                 </div>
             </div>
@@ -223,23 +159,6 @@
                 </div>
             </div>
             <div class="portfolio-box-dua">
-                <img src="img/bootstraphoyo.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
-                <div class="text">
-                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
-                        <div class="card-details">
-                            <p class="text-title">Bootstrap HoYoverse</p>
-                            <p class="text-body">
-                                This website explains about a game developer company called HoYoverse, 
-                                this is not the first time I have created a website about this company. 
-                                This website will explain 3 games from HoYoverse along with popular 
-                                characters from each game. This website was created for my website bootstrap project.
-                            </p>
-                        </div>
-                        <a href="https://farrosatsir.github.io/BootstrapHoYo/" class="card-button">See More</a>
-                    </div>
-                </div>
-            </div>
-            <div class="portfolio-box">
                 <img src="img/hoyoevent.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
                 <div class="text">
                     <div class="card" data-aos="fade-up-right" data-aos-duration="500">
@@ -253,6 +172,39 @@
                             </p>
                         </div>
                         <a href="https://farrosatsir.github.io/laravel_eccommerce" class="card-button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box mobile">
+                <img src="img/mokap ki ar.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
+                <div class="text">
+                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
+                        <div class="card-details">
+                            <p class="text-title">QR Generator & Scanner</p>
+                            <p class="text-body">
+                                This app is about QR code generator and scanner. 
+                                So in this application we can create QR codes and 
+                                add background colors with available colors, also we can scan QR codes.
+                            </p>
+                        </div>
+                        <a href="https://farrosatsir.github.io/QRScannerGenerator/" class="card-button">See More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-box-dua mobile">
+                <img src="img/mokap.png" alt="" data-aos="fade-down-left" data-aos-duration="500">
+                <div class="text">
+                    <div class="card" data-aos="fade-up-right" data-aos-duration="500">
+                        <div class="card-details">
+                            <p class="text-title">ChiTaTo E-Commerce App</p>
+                            <p class="text-body">
+                                This app is an e-commerce app with some features that are 
+                                common in other e-commerce apps, such as authentication, 
+                                adding to cart, favorite list, checkout, and darkmode lightmode, 
+                                as well as being able to log out after logging in to this app.
+                            </p>
+                        </div>
+                        <a href="https://farrosatsir.github.io/FlutterEcommerce/" class="card-button">See More</a>
                     </div>
                 </div>
             </div>
