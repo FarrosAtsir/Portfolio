@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
     })
 });
 
-// sidebar otomaticly closed
+// sidebar otomaticly closed click section
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".nav-link");
   const sidebarToggle = document.getElementById("check");
@@ -26,4 +26,14 @@ document.addEventListener("DOMContentLoaded", function () {
       sidebarToggle.checked = false;
     });
   });
+});
+
+// overlay when open sidebar
+document.getElementById('overlay').addEventListener('click', function(){
+  document.getElementById('check').checked = fasle;
+});
+
+// sidebar otomaticly closed when scroll
+document.addEventListener("scroll", function () {
+  document.getElementById("check").checked = false;
 });
